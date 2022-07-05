@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="script.css">
+    <title>CONVERSOR DE MOEDA</title>
+</head>
+<body>
+    <div class="loging-box"><br/><br/>
+        <h1>Conversor de Moedas</h1>
+        <p class="page-subtitle">
+            Converter para DÓLAR $/ EUR €/ BITCOIN ₿
+        </p>
+
+        <br/>
+        <label for="moeda">INSIRA O VALOR EM REAL</label><br/><br/>
+        <input type="number" id="valor" size="2"><br/><br/>
+        <button type="submit" onclick="ConverterRealParaDolar()">Dolar</button>
+        <button type="submit" onclick="ConverterRealParaEuro()">Euro</button>
+        <button type="submit" onclick="ConverterRealParaBitcoin()">Bitcoin</button>
+        <h2 id="valorConvertido"></h2>
+        <br/>
+        <br/><br/>
+</body>
+<script src="script.js"></script>
+</html>
